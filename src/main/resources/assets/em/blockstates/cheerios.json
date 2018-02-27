@@ -1,8 +1,27 @@
 {
-	"parent": "item/generated",
-	"textures"; {
-		"layer0": "em:items/cheerios",
-		"layer1": "em:items/Honey_Nut_Cheerios",
-		"layer2": "em:items/Cheerios Box Top"
+	"forge_marker": 1,
+	"defaults": {
+		"model": "em:cheerios",
+		"textures": {
+			"0": "em:items/cheerios",
+			"1": "em:items/Honey_Nut_Cheerios",
+			"2": "em:items/Cheerios Box Top"
 		}
+	},
+	"variants": {
+		"facing": {
+			"north": {
+				"y": 270
+			},
+			"south": {
+				"y": 90
+			},
+			"east": {
+				"y": 0
+			},
+			"west": {
+				"y": 180
+			}
+		}
+	}
 }
