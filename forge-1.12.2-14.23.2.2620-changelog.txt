@@ -1,5 +1,40 @@
 Changelog:
-Build 2611:
+Build 2620:
+	LexManos:
+		Fix vanilla crash classes not being preloaded. Closes #4769 Fix classes
+		not being aggregated for mods using the new annotation cache.
+
+Build 1.12.2-14.23.2.2619:
+	bs2609: Fix incorrect dimension ID being used for maps (#4690)
+
+Build 1.12.2-14.23.2.2618:
+	bs2609: Don't cull generated item models with non-default transforms (#4749)
+
+Build 1.12.2-14.23.2.2617:
+	bs2609: Maintain deterministic order in deserialised Forge blockstates (#4748)
+
+Build 1.12.2-14.23.2.2616:
+	goto.minecraft: Add function to BufferBuilder to directly insert byte data. Closes #4722
+
+Build 1.12.2-14.23.2.2615:
+	bs2609: Clean up some GUI code and change magic numbers to GL constants (#4734)
+
+Build 1.12.2-14.23.2.2614:
+	mezz: Minor cleanup for TestAnnotationParser
+
+Build 1.12.2-14.23.2.2613:
+	LexManos:
+		Remove Mercurius from release JSON, Sadly it's dead we may address it at
+		a later date.
+	LexManos:
+		Initial implementation of JSON based annotation scanning. Disabled by
+		default for now, until proven to be fully function. Enable using
+		-Dfml.enableJsonAnnotations=true
+
+Build 1.12.2-14.23.2.2612:
+	mezz: Update Github Stale bot message to better explain how to un-stale issues
+
+Build 1.12.2-14.23.2.2611:
 	LexManos: Bump version for RB.
 
 Build 1.12.2-14.23.1.2610:
@@ -194,7 +229,7 @@ Build 1.12.2-14.23.1.2569:
 	bs2609: Add missing nullability annotations to some Forge-added methods (#4578)
 
 Build 1.12.2-14.23.1.2568:
-	BillyGalbreath:
+	Billy Galbreath:
 		Allow EntityFishHook to spawn water particles in all liquids that use
 		Material.WATER (#4585)
 
@@ -310,7 +345,7 @@ Build 1.12.2-14.23.0.2537:
 Build 1.12.2-14.23.0.2536:
 	bs2609: Change item model alpha tests to match values used for rendering (#4490)
 	bs2609: Fix incorrect lighting of item models (#4493)
-	BillyGalbreath: Fix MC-51150 (#4495)
+	Billy Galbreath: Fix MC-51150 (#4495)
 
 Build 1.12.2-14.23.0.2535:
 	bartek.bok: Fix NPE when player tries to sleep without bed (#4487)
